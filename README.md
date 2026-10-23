@@ -1,27 +1,38 @@
 # Alpha Large Volume Trade Indicator
 
-Sierra Chart ACSIL custom study: Large volume trade bubbles with aggregation,
-multi-day historical rebuild, and Large Print Net Delta line.
+Sierra Chart ACSIL custom study: large volume trade bubbles with aggregation, multi-day historical rebuild, and Large Print Net Delta line.
 
 ## Download
 
-[⬇ Download Latest Release](https://github.com/TraderAlpha-1/Alpha-Large-Volume-Trade-Indicator/releases/latest/download/AlphaLargeVolumeTradeIndicator_64.dll)
+[⬇ Download Latest Release (v1.4)](https://github.com/TraderAlpha-1/Alpha-Large-Volume-Trade-Indicator/releases/latest/download/AlphaLargeVolumeTradeIndicator_64.dll)
 
 ## Compatibility
 
-| Sierra Chart version | DLL to use |
-|---|---|
-| 2911 or newer | v1.3 (latest release) |
-| Older than 2911 | [v1.2](https://github.com/TraderAlpha-1/Alpha-Large-Volume-Trade-Indicator/releases/tag/v1.2) |
+Requires **Sierra Chart 2969 or newer** (64-bit, Windows). v1.4 will not load on older versions: update Sierra Chart first via Help > Download Current Version.
+
+Sierra Chart finalized the ACSIL interface in version 2969, so this build should keep working on later releases.
 
 ## Installation
 
 1. Download `AlphaLargeVolumeTradeIndicator_64.dll`
-2. Copy to your Sierra Chart Data folder (e.g. `C:\SierraChart\Data`)
-3. In Sierra Chart: Analysis → Studies → Add Custom Study
+2. Close Sierra Chart. If you have an older copy, delete it from your Sierra Chart `Data` folder
+3. Copy the new DLL to your Sierra Chart `Data` folder (e.g. `C:\SierraChart\Data`)
+4. Reopen Sierra Chart. In Sierra Chart: Analysis → Studies → Add Custom Study → Alpha Large Volume Trade Indicator
+5. Re-enter your settings. Bubbles rebuild from history, then appear live
 
-For the two-panel delta line configuration and full setup guide, see the [Substack guide](https://substack.com/@traderalpha)
+For the two-panel delta line configuration and full setup guide, see the [Substack guide](https://substack.com/@traderalpha).
+
+## Changelog
+
+**v1.4**
+- Recompiled against Sierra Chart 2969 headers (required after the 2969 interface update)
+- Fixed: volume label color setting is now applied
+- Fixed: Hide Study now hides the volume labels (un-hiding rebuilds from history, so keep "Rebuild Historical Trades on Load" = Yes)
+
+**v1.3**: live trade fix for Sierra Chart 2911+
+
+**v1.2**: initial public release
 
 ## License
 
-GPL-3.0 — free for community use. See [LICENSE](LICENSE) for details.
+GPL-3.0, free for community use. See [LICENSE](LICENSE) for details.
