@@ -20,7 +20,7 @@ Sierra Chart finalized the ACSIL interface in version 2969, so this build should
 4. Reopen Sierra Chart. In Sierra Chart: Analysis → Studies → Add Custom Study → Alpha Large Volume Trade Indicator
 5. Re-enter your settings. Bubbles rebuild from history, then appear live
 
-For the two-panel delta line configuration and full setup guide, see the [Substack guide](https://substack.com/@traderalpha).
+For the two-panel delta line configuration and full setup guide, see the [Substack guide](https://traderalpha1.substack.com/p/alpha-large-volume-trade-indicator-1a4).
 
 ## Changelog
 
