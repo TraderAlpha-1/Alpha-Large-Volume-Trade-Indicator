@@ -35,4 +35,4 @@ For the two-panel delta line configuration and full setup guide, see the [Substa
 
 ## License
 
-GPL-3.0, free for community use. See [LICENSE](LICENSE) for details.
+Free to use. All rights reserved, source code not provided. See [LICENSE](LICENSE) for details.
